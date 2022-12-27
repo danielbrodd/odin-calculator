@@ -37,9 +37,14 @@
     align-items: center;
     justify-content: flex-end;
     padding-right: 5px;
+    text-overflow: ellipsis;
+    overflow-x: hidden;
+    white-space: nowrap;
+    max-width: 80%;
 
     font-size: 40px;
     font-weight: bold;
+    
 
 }
 
@@ -141,5 +146,5 @@
 .click{
     background-color: #465760;
     transform: scale(0.9);
-    transition: all 0.2s linear;
+    transition: all 0.1s linear;
 }
