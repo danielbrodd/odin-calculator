@@ -70,7 +70,8 @@
 .numbers{
     background-color: #5D737E;
 }
-.func{
+.func,
+#bClear{
     background-color: #F95738;
 }
 #bClear {
@@ -101,7 +102,7 @@
 
 #bZero{
     grid-row: 5;
-    grid-column: 1/4;
+    grid-column: 1/3;
 }
 #bOne {
     grid-row: 4;
